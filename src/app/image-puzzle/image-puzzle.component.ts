@@ -6,7 +6,7 @@ import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/cor
   styleUrls: ['./image-puzzle.component.css']
 })
 export class ImagePuzzleComponent implements OnInit {
-  imageUrl: string = '../assets/images/tiger.jpg';
+  imageUrl: string = '../assets/images/taj.jpg';
   imageSize: number = 500;
   gridsize: number = 2;
   boxSize: number = 100 / (this.gridsize - 1);
