@@ -1,9 +1,6 @@
-// import { isNullOrUndefined } from 'util';
 import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-//import * as from 'rxjs/Rx';
 
 @Component({
-  //moduleId: module.id,
   selector: 'app-image-puzzle',
   templateUrl: './image-puzzle.component.html',
   styleUrls: ['./image-puzzle.component.css']
