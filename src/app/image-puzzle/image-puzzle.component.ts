@@ -150,9 +150,11 @@ export class ImagePuzzleComponent implements OnInit {
     this.boxSize = this.imageSize / this.gridsize;
   }
 
+  ///
+
   initializeGame(): void {
 
-    this.gridsize = Number(this.difficulty);
+    this.gridsize = Number(this.difficulty); //3
     console.log(this.gridsize);
     this.boxSize = 100 / (this.gridsize - 1);
     this.index = 0;
