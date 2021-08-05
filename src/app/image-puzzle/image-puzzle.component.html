@@ -16,7 +16,7 @@
 				<span class="input-group-btn">
                    <div class="btn btn-default" >Image Url!</div>
                 </span>
-				<input type="url" class="form-control" placeholder="Image Url..." [(ngModel)]="imageUrl">
+				<input type="url" class="form-control" placeholder="Image Url..." (ngModelChange)="imageChanged()" [(ngModel)]="imageUrl">
 			</div>
 		</div>
 

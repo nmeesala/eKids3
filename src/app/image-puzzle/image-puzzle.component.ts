@@ -37,6 +37,10 @@ export class ImagePuzzleComponent implements OnInit {
     return true;
   }
 
+  imageChanged() {
+    this.startGame();
+  }
+
   randomize(imageParts: any[]): any[] {
     let i = 0, img: any[] = [], ran = 0;
     for (i = 0; i < imageParts.length; i++) {
